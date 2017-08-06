@@ -79,3 +79,16 @@ function calendar(state = initialCalendarState, action) {
 }
 
 export default combineReducers({ food, calendar });
+
+/**
+import { combineReducers } from 'redux';
+import booksReducer from './books_reducer';
+import userReducer from './user_reducer';
+
+const rootReducer = combineReducers({
+    books: booksReducer,
+    users: userReducer
+});
+
+export default rootReducer;
+ */
